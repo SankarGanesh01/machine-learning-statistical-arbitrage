@@ -1,0 +1,26 @@
+# Core data analysis
+numpy
+pandas
+scipy
+
+# Machine learning and clustering
+scikit-learn
+
+# Econometrics and statistical testing
+statsmodels
+
+# Visualisation
+matplotlib
+seaborn
+plotly
+
+# Explainable machine learning
+shap
+
+# Market data access, if used by the included scripts
+yfinance
+requests
+
+# Notebook environment
+jupyter
+ipykernel
