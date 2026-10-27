@@ -1,0 +1,82 @@
+# ==============================
+# Python cache and compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual environments
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter notebooks
+# ==============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ==============================
+# Credentials and local settings
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Raw and intermediate market data
+# Keep data/README.md tracked
+# ==============================
+data/raw/
+data/processed/
+data/interim/
+data/external/
+
+# Large data formats
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+# Large downloaded market-data files
+*.zip
+*.7z
+
+# ==============================
+# Model artefacts
+# ==============================
+models/
+checkpoints/
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# IDE settings
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Keep research outputs tracked
+# ==============================
+# Do not ignore figures/ or tables/.
+# Commit approved figures and summary CSVs
+# that are appropriate to redistribute.
